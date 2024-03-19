@@ -1,0 +1,118 @@
+.star-crew {
+  position: relative;
+  background: url("../../static/images/11.png") top no-repeat;
+  background-position: top 30px center;
+  background-size: contain;
+  background-color: #221462;
+  padding: 80px 0px 100px 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .star-crew {
+    padding: 60px 0px 80px 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .star-crew {
+    padding: 40px 0px;
+  }
+}
+
+.star-crew__content {
+  position: relative;
+}
+
+.star-title {
+  margin: 0px 0px 50px 0px;
+}
+@media screen and (max-width: 992px) {
+  .star-title {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+.star-crew__gallery {
+  position: relative;
+}
+
+.star-crew__section {
+  position: relative;
+}
+
+.star-crew__section.star-crew__wrapper{
+  padding: 60px 0px 40px 0px;
+}
+
+.star-crew__slider {
+  position: relative;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.star-crew__slider img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.star-crew__slider.active {
+  -webkit-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  transform: translateY(-40px);
+}
+.star-crew__slider.active .human {
+  opacity: 0;
+}
+.star-crew__slider.active .person {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+.star-crew__slider:hover {
+  -webkit-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  transform: translateY(-40px);
+}
+.star-crew__slider:hover .human {
+  opacity: 0;
+}
+.star-crew__slider:hover .person {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+@media screen and (max-width: 600px) {
+  .star-crew__slider {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.person {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+
+.human {
+  opacity: 1;
+  -webkit-transition: all 0.9s ease 0s;
+  transition: all 0.9s ease 0s;
+}
+

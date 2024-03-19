@@ -1,0 +1,30 @@
+.myform-forma.creative {
+    width: 370px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .myform-forma.creative {
+    width: 270px;
+  }
+}
+
+
+.myform-info.creative {
+  margin: 0px 0px 40px 0px;
+}
+
+.myform-title.creative {
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .myform-title.creative {
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+.myform-text.creative {
+  text-align: center;
+}
