@@ -1,0 +1,138 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.creative.swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.creative .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    margin: 40px 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 10px;
+    max-width: fit-content;
+  }
+
+.creative .swiper-pagination-bullet {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    margin: 0;
+    margin-right: 25px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.16);
+    bottom: 15px;
+    margin-top: 53px;
+}
+
+.creative .swiper-pagination .swiper-pagination-bullet-active {
+  background: #fff;
+  opacity: 1;
+}
+
+.creative-block {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  padding-bottom: 20px;
+}
+
+.main-block {
+  background-image: url("../static/creative/Фон.png");
+}
+
+.main-block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-right: 50px;
+}
+
+.main-block-container > img {
+  height: 50%;
+}
+
+.aqtolqyn.one {
+  background-image: url("../static/creative/1-1bg.png");
+}
+.aqtolqyn.two {
+  background-image: url("../static/creative/1-2bg.png");
+}
+
+.aqtolqyn.three {
+  background-image: url("../static/creative/1-1bg.png");
+}
+
+.aqtolqyn.four {
+  background-image: url("../static/creative/1-2bg.png");
+}
+
+.aqtolqyn.five {
+  background-image: url("../static/creative/1-1bg.png");
+}
+
+.aqtolqyn.six {
+  background-image: url("../static/creative/1-2bg.png");
+}
+
+.bmw {
+  background-image: url("../static/creative/2-1bg.png");
+}
+
+.sunset {
+  background-image: url("../static/creative/3-1bg.png");
+}
+
+.du {
+  background-image: url("../static/creative/UD_bg.png");
+}
+
+.kids {
+  background-image: url("../static/creative/KZ_bg.png");
+}
+
+.creative-main-text {
+  color: white;
+  font-family: "Unbounded";
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  width: 400px;
+  line-height: 1.5rem;
+}
+
+.default-media {
+  width: 370px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.logo-photo {
+  width: 280px;
+  margin: 0 100px;
+  padding-right: 20px;
+}
+
+.before-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.green-span {
+  color: rgb(0, 255, 179);
+}

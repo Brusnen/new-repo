@@ -1,0 +1,72 @@
+.creative-quote {
+    position: relative;
+    background: url("../../static/images/creative-blue.jpg") top no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .creative-quote__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 650px;
+  }
+  @media screen and (max-width: 600px) {
+    .creative-quote__content {
+      height: 500px;
+    }
+  }
+  
+  .creative-quote__text {
+    position: relative;
+    color: #FFF;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+    z-index: 2;
+    max-width: 848px;
+    margin-left: 45px;
+  }
+  .creative-quote__text::before {
+    position: absolute;
+    content: "''";
+    left: -45px;
+    top: -65px;
+    color: rgba(255, 255, 255, 0.2);
+    font-family: "Unbounded", sans-serif;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 230px;
+    z-index: 1;
+  }
+  @media screen and (max-width: 992px) {
+    .creative-quote__text {
+      font-size: 16px;
+      line-height: 20px;
+      margin-left: 30px;
+    }
+    .creative-quote__text::before {
+      left: -35px;
+      top: -30px;
+      font-size: 100px;
+      line-height: 115px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .creative-quote__text {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  
